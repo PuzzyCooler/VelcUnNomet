@@ -263,7 +263,7 @@ GameObject:
   - component: {fileID: 108495483}
   m_Layer: 5
   m_Name: Autobuss
-  m_TagString: Untagged
+  m_TagString: Skola
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -438,7 +438,7 @@ GameObject:
   - component: {fileID: 262783624}
   m_Layer: 5
   m_Name: AtkritumuMasina
-  m_TagString: Untagged
+  m_TagString: Atkritumi
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -535,9 +535,10 @@ GameObject:
   - component: {fileID: 297667831}
   - component: {fileID: 297667833}
   - component: {fileID: 297667832}
+  - component: {fileID: 297667834}
   m_Layer: 5
   m_Name: AutobusaVieta
-  m_TagString: Untagged
+  m_TagString: Skola
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -598,6 +599,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 297667830}
   m_CullTransparentMesh: 0
+--- !u!114 &297667834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297667830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98396c1276003a4498d6ab386921f93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objektuSkripts: {fileID: 1903221568}
 --- !u!1 &423403157
 GameObject:
   m_ObjectHideFlags: 0
@@ -867,7 +881,7 @@ GameObject:
   - component: {fileID: 1378750375}
   m_Layer: 5
   m_Name: AtraPalidziba
-  m_TagString: Untagged
+  m_TagString: Atrie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -964,9 +978,10 @@ GameObject:
   - component: {fileID: 1504658482}
   - component: {fileID: 1504658484}
   - component: {fileID: 1504658483}
+  - component: {fileID: 1504658485}
   m_Layer: 5
   m_Name: AtrasPalidzibasVieta
-  m_TagString: Untagged
+  m_TagString: Atrie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1027,6 +1042,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1504658481}
   m_CullTransparentMesh: 0
+--- !u!114 &1504658485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504658481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98396c1276003a4498d6ab386921f93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objektuSkripts: {fileID: 1903221568}
 --- !u!1 &1903221567
 GameObject:
   m_ObjectHideFlags: 0
@@ -1096,9 +1124,10 @@ GameObject:
   - component: {fileID: 1906344122}
   - component: {fileID: 1906344124}
   - component: {fileID: 1906344123}
+  - component: {fileID: 1906344125}
   m_Layer: 5
   m_Name: AtkritumuMasinasVieta
-  m_TagString: Untagged
+  m_TagString: Atkritumi
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1159,3 +1188,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1906344121}
   m_CullTransparentMesh: 0
+--- !u!114 &1906344125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1906344121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98396c1276003a4498d6ab386921f93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objektuSkripts: {fileID: 1903221568}
