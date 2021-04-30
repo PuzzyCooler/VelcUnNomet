@@ -538,7 +538,7 @@ GameObject:
   - component: {fileID: 147308052}
   m_Layer: 5
   m_Name: e46vieta
-  m_TagString: Untagged
+  m_TagString: e46
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -815,7 +815,7 @@ GameObject:
   - component: {fileID: 387987450}
   m_Layer: 5
   m_Name: eskavatoravieta
-  m_TagString: Untagged
+  m_TagString: Eskavators
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1208,7 +1208,7 @@ GameObject:
   - component: {fileID: 693531173}
   m_Layer: 5
   m_Name: ugunsdzesejuvieta
-  m_TagString: Untagged
+  m_TagString: Ugunsdzesejs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1599,7 +1599,7 @@ GameObject:
   - component: {fileID: 1040375523}
   m_Layer: 5
   m_Name: b2vieta
-  m_TagString: Untagged
+  m_TagString: b2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1687,7 +1687,7 @@ GameObject:
   - component: {fileID: 1053336441}
   m_Layer: 5
   m_Name: cementamasinasvieta
-  m_TagString: Untagged
+  m_TagString: Cements
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2043,7 +2043,7 @@ GameObject:
   - component: {fileID: 1444424628}
   m_Layer: 5
   m_Name: Traktors1vieta
-  m_TagString: Untagged
+  m_TagString: Traktors1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2320,7 +2320,7 @@ GameObject:
   - component: {fileID: 1560626329}
   m_Layer: 5
   m_Name: traktors5vieta
-  m_TagString: Untagged
+  m_TagString: Traktors5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2406,6 +2406,7 @@ GameObject:
   - component: {fileID: 1887832214}
   - component: {fileID: 1887832213}
   - component: {fileID: 1887832215}
+  - component: {fileID: 1887832216}
   m_Layer: 5
   m_Name: ugunsdzeseji
   m_TagString: Ugunsdzesejs
@@ -2482,6 +2483,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objektuSkripts: {fileID: 1903221568}
+--- !u!225 &1887832216
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1887832211}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1903221567
 GameObject:
   m_ObjectHideFlags: 0
@@ -2515,14 +2528,14 @@ MonoBehaviour:
   atkritumuMasina: {fileID: 262783619}
   atroMasina: {fileID: 1378750370}
   autobuss: {fileID: 108495478}
-  b2: {fileID: 0}
-  CementaMasina: {fileID: 0}
-  Policija: {fileID: 0}
-  e46: {fileID: 0}
-  Traktors1: {fileID: 0}
-  Traktors5: {fileID: 0}
-  UgunsDzeseji: {fileID: 0}
-  Eskavators: {fileID: 0}
+  b2: {fileID: 759006907}
+  CementaMasina: {fileID: 754155902}
+  Policija: {fileID: 1262596894}
+  e46: {fileID: 429486812}
+  Traktors1: {fileID: 1484999486}
+  Traktors5: {fileID: 9101861}
+  UgunsDzeseji: {fileID: 1887832211}
+  Eskavators: {fileID: 908689875}
   atkrKoord: {x: 0, y: 0}
   atroKoord: {x: 0, y: 0}
   bussKoord: {x: 0, y: 0}
@@ -2680,7 +2693,7 @@ GameObject:
   - component: {fileID: 2135647736}
   m_Layer: 5
   m_Name: PolicijasVieta
-  m_TagString: Untagged
+  m_TagString: Policija
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
