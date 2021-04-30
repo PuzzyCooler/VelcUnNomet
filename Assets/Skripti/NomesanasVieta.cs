@@ -68,6 +68,38 @@ public class NomesanasVieta : MonoBehaviour, IDropHandler{
                             objektuSkripts.skanasAvots.PlayOneShot(objektuSkripts.skanaKoAtskanot[3]);
                         break;
 
+                        case "b2":
+                            objektuSkripts.skanasAvots.PlayOneShot(objektuSkripts.skanaKoAtskanot[1]);
+                            break;
+
+                        case "Cements":
+                            objektuSkripts.skanasAvots.PlayOneShot(objektuSkripts.skanaKoAtskanot[1]);
+                            break;
+
+                        case "Policija":
+                            objektuSkripts.skanasAvots.PlayOneShot(objektuSkripts.skanaKoAtskanot[1]);
+                            break;
+
+                        case "e46":
+                            objektuSkripts.skanasAvots.PlayOneShot(objektuSkripts.skanaKoAtskanot[1]);
+                            break;
+
+                        case "Traktors1":
+                            objektuSkripts.skanasAvots.PlayOneShot(objektuSkripts.skanaKoAtskanot[1]);
+                            break;
+
+                        case "Traktors5":
+                            objektuSkripts.skanasAvots.PlayOneShot(objektuSkripts.skanaKoAtskanot[1]);
+                            break;
+
+                        case "Ugunsdzesejs":
+                            objektuSkripts.skanasAvots.PlayOneShot(objektuSkripts.skanaKoAtskanot[1]);
+                            break;
+
+                        case "Eskavators":
+                            objektuSkripts.skanasAvots.PlayOneShot(objektuSkripts.skanaKoAtskanot[1]);
+                            break;
+
                         default:
                             Debug.Log("Nedefinēts tags!");
                         break;
@@ -96,6 +128,46 @@ public class NomesanasVieta : MonoBehaviour, IDropHandler{
                     case "Skola":
                         objektuSkripts.autobuss.GetComponent<RectTransform>().localPosition =
                             objektuSkripts.bussKoord;
+                        break;
+
+                    case "b2":
+                        objektuSkripts.b2.GetComponent<RectTransform>().localPosition =
+                            objektuSkripts.b2Koord;
+                        break;
+
+                    case "CementaMasina":
+                        objektuSkripts.CementaMasina.GetComponent<RectTransform>().localPosition =
+                            objektuSkripts.cementKoord;
+                        break;
+
+                    case "Policija":
+                        objektuSkripts.Policija.GetComponent<RectTransform>().localPosition =
+                            objektuSkripts.PolicijaKoord;
+                        break;
+
+                    case "e46":
+                        objektuSkripts.e46.GetComponent<RectTransform>().localPosition =
+                            objektuSkripts.e46Koord;
+                        break;
+
+                    case "Traktors1":
+                        objektuSkripts.Traktors1.GetComponent<RectTransform>().localPosition =
+                            objektuSkripts.Trak1Koord;
+                        break;
+
+                    case "Traktors5":
+                        objektuSkripts.Traktors5.GetComponent<RectTransform>().localPosition =
+                            objektuSkripts.Trak5Koord;
+                        break;
+
+                    case "Ugunsdzeseji":
+                        objektuSkripts.UgunsDzeseji.GetComponent<RectTransform>().localPosition =
+                            objektuSkripts.UgunsKoord;
+                        break;
+
+                    case "Eskavators":
+                        objektuSkripts.Eskavators.GetComponent<RectTransform>().localPosition =
+                            objektuSkripts.eskvKoord;
                         break;
 
                     default:
