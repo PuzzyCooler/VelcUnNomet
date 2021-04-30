@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GalvenaIzvele.unity
     guid: 160ed4d93a7baee43ae1c2885dc57d17
+  - enabled: 1
+    path: Assets/Scenes/PilsetasAina.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
